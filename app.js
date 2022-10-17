@@ -7,11 +7,6 @@
 //     console.log("Сервер начал прослушивание запросов на порту 3005");
 // });
 
-// const os = require("os");
-// // получим имя текущего пользователя
-// let userName = os.userInfo().username;
- 
-// console.log(userName);
 const os = require("os");
 const greeting = require("./greeting");
  
