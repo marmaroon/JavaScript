@@ -17,3 +17,7 @@ let userName = os.userInfo().username;
 console.log(`Дата запроса: ${greeting.date}`);
 console.log(greeting.getMessage(userName));
 
+const User = require("./user.js");
+ 
+let masha = new User("Masha", 32);
+masha.sayHi();
